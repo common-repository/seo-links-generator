@@ -1,0 +1,337 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: SEO Links Generator v0.4\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: \n"
+"PO-Revision-Date: 2013-12-18 16:51:20+0000\n"
+"Last-Translator: Michał <michal@slugocki.net>\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=3; plural=n==1 ? 0 : n%10>=2 && n%10<=4 && (n%100<10 || n%100>=20) ? 1 : 2;\n"
+"X-Generator: CSL v1.x\n"
+"X-Poedit-Language: Polish\n"
+"X-Poedit-Country: POLAND\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_n:1,2;__ngettext_noop:1,2;_n_noop:1,2;_c,_nc:4c,1,2;_x:1,2c;_ex:1,2c;_nx:4c,1,2;_nx_noop:4c,1,2;\n"
+"X-Poedit-Basepath: ../\n"
+"X-Poedit-Bookmarks: \n"
+"X-Poedit-SearchPath-0: .\n"
+"X-Textdomain-Support: yes"
+
+#: seo-links-generator-admin.php:9
+#@ seo-links-generator
+msgid "With SEO Links Generator you can easily add (automatically) links for keywords and phrases in posts, pages and comments and link them to corresponding posts, pages, categories, tags or any URL. Set the following settings to your own needs and let SEO Links Generator do the work for you."
+msgstr "Używając wtyczki SEO Links Generator w łatwy sposób możesz tworzyć linki w postaci słów kluczowych występujących w Twoich postach, stronach i kategoriach do innych postów, stron, kategorii lub na inny dowolny adres URL. Skonfiguruj ustawienia wg. swoich potrzeb, a resztą zajmie się za Ciebie wtyczka SEO Links Generator."
+
+#: seo-links-generator-admin.php:10
+#@ seo-links-generator
+msgid "If you find any bugs or have ideas for the plugin, please let me know at:"
+msgstr "Jeżeli znajdziesz jakiś błąd w funkcjonowaniu wtyczki lub jeżeli masz pomysł na jej rozwój, proszę o pozostawienie informacji na forum: "
+
+#: seo-links-generator-admin.php:10
+#@ seo-links-generator
+msgid "Post your found bug or idea at WordPress.org"
+msgstr "Znalezione błędy lub Twoje pomysły na rozwój wtyczki zgłoś na WordPress.org"
+
+#: seo-links-generator-admin.php:13
+#@ seo-links-generator
+msgid "Internal Links"
+msgstr "Linki wewnętrzne"
+
+#: seo-links-generator-admin.php:15
+#@ seo-links-generator
+msgid "SEO Links Generator can process your posts, pages and comments in search for keywords to automatically interlink."
+msgstr "Wtyczka SEO Links Generator może analizować Twoje posty, strony i komentarze w poszukiwaniu słów kluczowych, które może automatycznie podlinkować do innych treści. "
+
+#: seo-links-generator-admin.php:19
+#: seo-links-generator-admin.php:114
+#@ seo-links-generator
+msgid "Posts"
+msgstr "Posty"
+
+#: seo-links-generator-admin.php:20
+#: seo-links-generator-admin.php:24
+#: seo-links-generator-admin.php:28
+#: seo-links-generator-admin.php:32
+#: seo-links-generator-admin.php:48
+#: seo-links-generator-admin.php:99
+#: seo-links-generator-admin.php:115
+#: seo-links-generator-admin.php:119
+#: seo-links-generator-admin.php:123
+#: seo-links-generator-admin.php:127
+#: seo-links-generator-admin.php:135
+#: seo-links-generator-admin.php:139
+#@ seo-links-generator
+msgid "Enable"
+msgstr "Włącz"
+
+#: seo-links-generator-admin.php:20
+#: seo-links-generator-admin.php:24
+#@ seo-links-generator
+msgid "Allow self linking"
+msgstr "Zezwól na linkowanie do samego siebie"
+
+#: seo-links-generator-admin.php:23
+#: seo-links-generator-admin.php:118
+#@ seo-links-generator
+msgid "Pages"
+msgstr "Strony"
+
+#: seo-links-generator-admin.php:27
+#@ seo-links-generator
+msgid "Comments"
+msgstr "Komentarze"
+
+#: seo-links-generator-admin.php:28
+#: seo-links-generator-admin.php:123
+#: seo-links-generator-admin.php:127
+#@ seo-links-generator
+msgid "May slow down performance."
+msgstr "Może spowolnić działanie."
+
+#: seo-links-generator-admin.php:31
+#@ seo-links-generator
+msgid "RSS feeds"
+msgstr "Kanały RSS"
+
+#: seo-links-generator-admin.php:32
+#@ seo-links-generator
+msgid "Allow processing of RSS feeds. SEO Links Generator will embed links in all posts in your RSS feed (according to other options)."
+msgstr "Zezwalaj na działanie na kanałach RSS. Wtyczka SEO Links Generator będzie umieszczać linki również w postach na twoich kanałach RSS (opcja zależna od pozostałych ustawień wtyczki)."
+
+#: seo-links-generator-admin.php:35
+#@ seo-links-generator
+msgid "Max Links"
+msgstr "Max. liczba linków"
+
+#: seo-links-generator-admin.php:36
+#@ seo-links-generator
+msgid "You can limit the maximum number of different links that will be generated per post. Set to 0 for no limit."
+msgstr "Możesz ograniczyć maksymalną liczbę linków dla 1 posta. Ustaw 0 dla braku limitu."
+
+#: seo-links-generator-admin.php:39
+#@ seo-links-generator
+msgid "Max Keyword Links"
+msgstr "Max. ilość linków dla 1 słowa kluczowego"
+
+#: seo-links-generator-admin.php:40
+#@ seo-links-generator
+msgid "You can limit the maximum number of links created with the same keyword. Set to 0 for no limit."
+msgstr "Możesz ograniczyć maksymalną liczbę linków dla tego samego słowa kluczowego. Ustaw 0 dla braku limitu."
+
+#: seo-links-generator-admin.php:43
+#@ seo-links-generator
+msgid "Max Same URLs"
+msgstr "Max. ilość takich samych linków"
+
+#: seo-links-generator-admin.php:44
+#@ seo-links-generator
+msgid "Limit number of same URLs the plugin will link to. Works only when Max Keyword Links above is set to 1. Set to 0 for no limit."
+msgstr "Możesz ograniczyć maksymalną liczbę takich samych adresów URL, do których będą linkować różne słowa kluczowe. Opcja ta działa jeżeli dla pozycji 'Max. ilość linków dla 1 słowa kluczowego' ustawiono 1. Ustaw 0 dla braku limitu."
+
+#: seo-links-generator-admin.php:47
+#@ seo-links-generator
+msgid "Case sensitive"
+msgstr "Uwzględniaj wielkość liter"
+
+#: seo-links-generator-admin.php:48
+#@ seo-links-generator
+msgid "Set whether matching should be case sensitive."
+msgstr "Określ, czy w dopasowaniu powinna być uwzględniana wielkość liter."
+
+#: seo-links-generator-admin.php:52
+#: seo-links-generator-admin.php:76
+#: seo-links-generator-admin.php:103
+#: seo-links-generator-admin.php:143
+#@ seo-links-generator
+msgid "Save all settings"
+msgstr "Zapisz wszystkie ustawienia"
+
+#: seo-links-generator-admin.php:57
+#@ seo-links-generator
+msgid "Custom Keywords"
+msgstr "Niestandardowe słowa kluczowe"
+
+#: seo-links-generator-admin.php:59
+#@ seo-links-generator
+msgid "Here you can enter manually the extra keywords you want to automaticaly link. Use comma to seperate keywords and add target url at the end. Use a new line for new url and set of keywords. You can have these keywords link to any url, not only your site."
+msgstr "Tutaj możesz podać słowa kluczowe, które mają być automatycznie linkowane. Do rozdzielania słów kluczowych użyj przecinka, a następnie podaj dla nich docelowy adres URL. Każdy zestaw słów kluczowych z przypisanym adresem URL powinien się znajdować w nowej linii. Wypisane tu słowa kluczowe mogą linkować wewnątrz jak i na zewnątrz Twojej strony www."
+
+#: seo-links-generator-admin.php:63
+#@ seo-links-generator
+msgid "Keywords & links"
+msgstr "Słowa kluczowe i linki"
+
+#: seo-links-generator-admin.php:64
+#@ default
+msgid "Example"
+msgstr ""
+
+#: seo-links-generator-admin.php:64
+#@ seo-links-generator
+msgid "google webmaster, http://www.google.com/webmasters/"
+msgstr "aukcje internetowe, http://www.allegro.pl/"
+
+#: seo-links-generator-admin.php:64
+#@ seo-links-generator
+msgid "wiki, wikipedia, http://wikipedia.org"
+msgstr "filmy online, filmy online za darmo, http://stop-limitom.pl"
+
+#: seo-links-generator-admin.php:67
+#@ seo-links-generator
+msgid "Grouped keywords"
+msgstr "Pogrupowane słowa kluczowe"
+
+#: seo-links-generator-admin.php:68
+#@ seo-links-generator
+msgid "Prevent duplicate"
+msgstr "Zapobiegaj duplikatom"
+
+#: seo-links-generator-admin.php:68
+#@ seo-links-generator
+msgid "Prevent Duplicate links for grouped keywords (will link only first of the keywords found in text)."
+msgstr "Zapobiegaj duplikatom dla pogrupowanych słów kluczowych (Linkiem będzie tylko pierwsze słowo kluczowe znalezione w treści)."
+
+#: seo-links-generator-admin.php:71
+#@ seo-links-generator
+msgid "Load from URL"
+msgstr "Załaduj z adresu URL"
+
+#: seo-links-generator-admin.php:72
+#@ seo-links-generator
+msgid "Load custom keywords from a URL. This appends to the list above."
+msgstr "Załaduj niestandardowe słowa kluczowe z adresu URL. Słowa zostaną dopisane do listy powyżej."
+
+#: seo-links-generator-admin.php:81
+#@ seo-links-generator
+msgid "Excluding"
+msgstr "Wykluczenia"
+
+#: seo-links-generator-admin.php:86
+#@ seo-links-generator
+msgid "Heading"
+msgstr "Nagłówki"
+
+#: seo-links-generator-admin.php:87
+#@ seo-links-generator
+msgid "Exclude"
+msgstr "Wyklucz"
+
+#: seo-links-generator-admin.php:87
+#@ seo-links-generator
+msgid "Prevent linking in heading tags (h1, h2, h3, h4, h5 and h6)."
+msgstr "Zapobiegaj tworzeniu linków ze słów kluczowych występujących w nagłówkach (h1, h2, h3, h4, h5 i h6)."
+
+#: seo-links-generator-admin.php:90
+#@ seo-links-generator
+msgid "Ignore posts / pages"
+msgstr "Ignoruj ​​posty / strony"
+
+#: seo-links-generator-admin.php:91
+#: seo-links-generator-admin.php:95
+#@ seo-links-generator
+msgid "Add a tag"
+msgstr "Dodaj tagi"
+
+#: seo-links-generator-admin.php:91
+#@ seo-links-generator
+msgid "You may wish to forbid automatic linking on certain posts or pages. Separate them by comma (ID, slug or name)."
+msgstr "Możesz zablokować automatyczne linkowanie, dla niektórych postów oraz stron. Rozdziel je przecinkami (ID lub nazwa wpisu)."
+
+#: seo-links-generator-admin.php:94
+#@ seo-links-generator
+msgid "Ignore keywords"
+msgstr "Ignoruj ​​słowa kluczowe"
+
+#: seo-links-generator-admin.php:95
+#@ seo-links-generator
+msgid "You may wish to ignore certain words or phrases from automatic linking. Separate them by comma."
+msgstr "Możesz zablokować automatyczne linkowanie dla niektórych słów kluczowych. Wypisz je rozdzielając przecinkami. "
+
+#: seo-links-generator-admin.php:98
+#@ seo-links-generator
+msgid "Single posts / pages only"
+msgstr "Tylko pojedyncze posty / strony"
+
+#: seo-links-generator-admin.php:99
+#@ seo-links-generator
+msgid "To reduce database load you can choose to have SEO Links Generator work only on single posts and pages (for example not on main page or archives)."
+msgstr "Dla zmniejszenia obciążenia bazy danych wtyczka SEO Links Generator może pracować tylko na pojedynczych postach i stronach (np. nie na stronie głównej Twojej witryny i w archiwum)."
+
+#: seo-links-generator-admin.php:108
+#@ seo-links-generator
+msgid "Targeting"
+msgstr "Linkuj do:"
+
+#: seo-links-generator-admin.php:110
+#@ seo-links-generator
+msgid "The targets SEO Links Generator should consider. The match will be based on post/page title or category/tag name, case insensitive."
+msgstr "Zaznacz do jakich miejsc może linkować wtyczka SEO Links Generator. Dopasowanie miejsca docelowego odbywa się po tytułach postów/stron lub nazwie kategorii/tagów. Wielkość liter ma znaczenie. "
+
+#: seo-links-generator-admin.php:115
+#@ seo-links-generator
+msgid "Enable to link internal links to posts."
+msgstr "Włącz linkowanie między postami."
+
+#: seo-links-generator-admin.php:119
+#@ seo-links-generator
+msgid "Enable to link internal links to pages."
+msgstr "Włącz linkowanie między stronami. "
+
+#: seo-links-generator-admin.php:122
+#@ seo-links-generator
+msgid "Categories"
+msgstr "Kategorie"
+
+#: seo-links-generator-admin.php:123
+#@ seo-links-generator
+msgid "Enable to link internal links to categories."
+msgstr "Włącz linkowanie do stron kategorii."
+
+#: seo-links-generator-admin.php:126
+#@ seo-links-generator
+msgid "Tags"
+msgstr "Tagi"
+
+#: seo-links-generator-admin.php:127
+#@ seo-links-generator
+msgid "Enable to link internal links to tags."
+msgstr "Włącz linkowanie do stron tagów."
+
+#: seo-links-generator-admin.php:130
+#@ seo-links-generator
+msgid "Minimum categories / tags"
+msgstr "Minimalna ilość kategorii / tagów"
+
+#: seo-links-generator-admin.php:131
+#@ seo-links-generator
+msgid "Only link categories and tags that have been used the above number of times or more."
+msgstr "Linkuje kategorie i tagi, które zostały użyte w treści minimum tyle razy ile tutaj podasz."
+
+#: seo-links-generator-admin.php:134
+#@ seo-links-generator
+msgid "Add nofollow"
+msgstr "Dodaj atrybut rel=''nofollow''"
+
+#: seo-links-generator-admin.php:135
+#@ seo-links-generator
+msgid "Add a nofollow attribute to the external links."
+msgstr "Dodaj atrybut rel=''nofollow'' dla linków zewnętrznych."
+
+#: seo-links-generator-admin.php:138
+#@ seo-links-generator
+msgid "Open in new window"
+msgstr "Otwórz w nowym oknie "
+
+#: seo-links-generator-admin.php:139
+#@ seo-links-generator
+msgid "Open the external links in a new window."
+msgstr "Otwórz linki zewnętrzne w nowym oknie (dodaje atrybut target=''_blank''). "
+
+#: seo-links-generator.php:358
+#@ seo-links-generator
+msgid "Plugin settings saved."
+msgstr "Zapisano ustawienia wtyczki."
+
